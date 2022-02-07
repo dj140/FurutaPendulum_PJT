@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name bldc_motor_ctrl)(type Legacy)(uri /home/azmat/Projects/OpenSource/bldc_motor_controller_pcb/libraries/bldc_motor_ctrl.lib)(options "")(descr ""))
+  (lib (name bldc_motor_encoder-rescue)(type Legacy)(uri ${KIPRJMOD}/bldc_motor_encoder-rescue.lib)(options "")(descr ""))
+)
