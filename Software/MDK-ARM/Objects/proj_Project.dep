@@ -1,0 +1,1715 @@
+Dependencies for Project 'proj', Target 'Project': (DO NOT MODIFY !)
+F (..\USER\main.cpp)(0x6213B035)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\Libraries\SimpleFOC.h)(0x615DAA1C)
+I (..\Libraries\BLDCMotor.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/FOCMotor.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/Sensor.h)(0x615DAA1D)
+I (..\Libraries\common/base_classes/CurrentSense.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/BLDCDriver.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../foc_utils.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../time_utils.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../defaults.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../pid.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../lowpass_filter.h)(0x615DAA1C)
+I (..\Libraries\common/defaults.h)(0x615DAA1C)
+I (..\Libraries\StepperMotor.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/StepperDriver.h)(0x615DAA1D)
+I (..\Libraries\sensors/Encoder.h)(0x615DAA1E)
+I (..\Libraries\sensors/MagneticSensorSPI.h)(0x61781722)
+I (..\ArduinoAPI\SPI.h)(0x5F43E760)
+I (..\Libraries\sensors/MagneticSensorI2C.h)(0x615DAA1E)
+I (..\ArduinoAPI\Wire.h)(0x6017F18E)
+I (..\ArduinoAPI\WireBase.h)(0x5F43E760)
+I (..\Libraries\sensors/MagneticSensorAnalog.h)(0x615DAA1E)
+I (..\Libraries\sensors/MagneticSensorPWM.h)(0x615DAA1E)
+I (..\Libraries\sensors/HallSensor.h)(0x615DAA1E)
+I (..\Libraries\drivers/BLDCDriver3PWM.h)(0x615DAA1D)
+I (..\Libraries\drivers/../common/defaults.h)(0x615DAA1C)
+I (..\Libraries\drivers/hardware_api.h)(0x615DAA1E)
+I (..\Libraries\drivers/BLDCDriver6PWM.h)(0x615DAA1D)
+I (..\Libraries\drivers/StepperDriver4PWM.h)(0x615DAA1E)
+I (..\Libraries\drivers/StepperDriver2PWM.h)(0x615DAA1E)
+I (..\Libraries\current_sense/InlineCurrentSense.h)(0x615DAA1D)
+I (..\Libraries\current_sense/../common/defaults.h)(0x615DAA1C)
+I (..\Libraries\current_sense/hardware_api.h)(0x615DAA1D)
+I (..\Libraries\current_sense/LowsideCurrentSense.h)(0x615DAA1D)
+I (..\Libraries\communication/Commander.h)(0x615DAA1D)
+I (..\Libraries\communication/commands.h)(0x615DAA1D)
+I (..\Libraries\communication/StepDirListener.h)(0x615DAA1D)
+F (..\Libraries\common\foc_utils.cpp)(0x615DAA1C)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\foc_utils.o --omf_browse .\objects\foc_utils.crf --depend .\objects\foc_utils.d)
+I (..\Libraries\common\foc_utils.h)(0x615DAA1C)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+F (..\Libraries\common\lowpass_filter.cpp)(0x615DAA1C)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\lowpass_filter.o --omf_browse .\objects\lowpass_filter.crf --depend .\objects\lowpass_filter.d)
+I (..\Libraries\common\lowpass_filter.h)(0x615DAA1C)
+I (..\Libraries\common\time_utils.h)(0x615DAA1C)
+I (..\Libraries\common\foc_utils.h)(0x615DAA1C)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+F (..\Libraries\common\pid.cpp)(0x615DAA1C)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\pid.o --omf_browse .\objects\pid.crf --depend .\objects\pid.d)
+I (..\Libraries\common\pid.h)(0x615DAA1C)
+I (..\Libraries\common\time_utils.h)(0x615DAA1C)
+I (..\Libraries\common\foc_utils.h)(0x615DAA1C)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+F (..\Libraries\common\time_utils.cpp)(0x615DAA1C)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\time_utils.o --omf_browse .\objects\time_utils.crf --depend .\objects\time_utils.d)
+I (..\Libraries\common\time_utils.h)(0x615DAA1C)
+I (..\Libraries\common\foc_utils.h)(0x615DAA1C)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+F (..\Libraries\communication\Commander.cpp)(0x615DAA1D)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\commander.o --omf_browse .\objects\commander.crf --depend .\objects\commander.d)
+I (..\Libraries\communication\Commander.h)(0x615DAA1D)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\Libraries\communication\../common/base_classes/FOCMotor.h)(0x615DAA1C)
+I (..\Libraries\communication\../common/base_classes/Sensor.h)(0x615DAA1D)
+I (..\Libraries\communication\../common/base_classes/CurrentSense.h)(0x615DAA1C)
+I (..\Libraries\communication\../common/base_classes/BLDCDriver.h)(0x615DAA1C)
+I (..\Libraries\communication\../common/base_classes/../foc_utils.h)(0x615DAA1C)
+I (..\Libraries\communication\../common/base_classes/../time_utils.h)(0x615DAA1C)
+I (..\Libraries\communication\../common/base_classes/../defaults.h)(0x615DAA1C)
+I (..\Libraries\communication\../common/base_classes/../pid.h)(0x615DAA1C)
+I (..\Libraries\communication\../common/base_classes/../lowpass_filter.h)(0x615DAA1C)
+I (..\Libraries\communication\commands.h)(0x615DAA1D)
+F (..\Libraries\drivers\BLDCDriver3PWM.cpp)(0x61659897)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\bldcdriver3pwm.o --omf_browse .\objects\bldcdriver3pwm.crf --depend .\objects\bldcdriver3pwm.d)
+I (..\Libraries\drivers\BLDCDriver3PWM.h)(0x615DAA1D)
+I (..\Libraries\drivers\../common/base_classes/BLDCDriver.h)(0x615DAA1C)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\Libraries\drivers\../common/foc_utils.h)(0x615DAA1C)
+I (..\Libraries\drivers\../common/time_utils.h)(0x615DAA1C)
+I (..\Libraries\drivers\../common/defaults.h)(0x615DAA1C)
+I (..\Libraries\drivers\hardware_api.h)(0x615DAA1E)
+F (..\Libraries\sensors\Encoder.cpp)(0x615DAA1E)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\encoder.o --omf_browse .\objects\encoder.crf --depend .\objects\encoder.d)
+I (..\Libraries\sensors\Encoder.h)(0x615DAA1E)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\Libraries\sensors\../common/foc_utils.h)(0x615DAA1C)
+I (..\Libraries\sensors\../common/time_utils.h)(0x615DAA1C)
+I (..\Libraries\sensors\../common/base_classes/Sensor.h)(0x615DAA1D)
+F (..\Libraries\sensors\MagneticSensorI2C.cpp)(0x615DACEB)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\magneticsensori2c.o --omf_browse .\objects\magneticsensori2c.crf --depend .\objects\magneticsensori2c.d)
+I (..\Libraries\sensors\MagneticSensorI2C.h)(0x615DAA1E)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\ArduinoAPI\Wire.h)(0x6017F18E)
+I (..\ArduinoAPI\WireBase.h)(0x5F43E760)
+I (..\Libraries\sensors\../common/base_classes/Sensor.h)(0x615DAA1D)
+I (..\Libraries\sensors\../common/foc_utils.h)(0x615DAA1C)
+I (..\Libraries\sensors\../common/time_utils.h)(0x615DAA1C)
+F (..\Libraries\sensors\MagneticSensorSPI.cpp)(0x61F56CC3)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\magneticsensorspi.o --omf_browse .\objects\magneticsensorspi.crf --depend .\objects\magneticsensorspi.d)
+I (..\Libraries\sensors\MagneticSensorSPI.h)(0x61781722)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\ArduinoAPI\SPI.h)(0x5F43E760)
+I (..\Libraries\sensors\../common/base_classes/Sensor.h)(0x615DAA1D)
+I (..\Libraries\sensors\../common/foc_utils.h)(0x615DAA1C)
+I (..\Libraries\sensors\../common/time_utils.h)(0x615DAA1C)
+F (..\Libraries\BLDCMotor.cpp)(0x615DAA1C)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\bldcmotor.o --omf_browse .\objects\bldcmotor.crf --depend .\objects\bldcmotor.d)
+I (..\Libraries\BLDCMotor.h)(0x615DAA1C)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\Libraries\common/base_classes/FOCMotor.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/Sensor.h)(0x615DAA1D)
+I (..\Libraries\common/base_classes/CurrentSense.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/BLDCDriver.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../foc_utils.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../time_utils.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../defaults.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../pid.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../lowpass_filter.h)(0x615DAA1C)
+I (..\Libraries\common/defaults.h)(0x615DAA1C)
+F (..\Libraries\common\base_classes\CurrentSense.cpp)(0x615DAA1C)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\currentsense.o --omf_browse .\objects\currentsense.crf --depend .\objects\currentsense.d)
+I (..\Libraries\common\base_classes\CurrentSense.h)(0x615DAA1C)
+I (..\Libraries\common\base_classes\BLDCDriver.h)(0x615DAA1C)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\Libraries\common\base_classes\../foc_utils.h)(0x615DAA1C)
+F (..\Libraries\common\base_classes\FOCMotor.cpp)(0x615DAA1C)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\focmotor.o --omf_browse .\objects\focmotor.crf --depend .\objects\focmotor.d)
+I (..\Libraries\common\base_classes\FOCMotor.h)(0x615DAA1C)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\Libraries\common\base_classes\Sensor.h)(0x615DAA1D)
+I (..\Libraries\common\base_classes\CurrentSense.h)(0x615DAA1C)
+I (..\Libraries\common\base_classes\BLDCDriver.h)(0x615DAA1C)
+I (..\Libraries\common\base_classes\../foc_utils.h)(0x615DAA1C)
+I (..\Libraries\common\base_classes\../time_utils.h)(0x615DAA1C)
+I (..\Libraries\common\base_classes\../defaults.h)(0x615DAA1C)
+I (..\Libraries\common\base_classes\../pid.h)(0x615DAA1C)
+I (..\Libraries\common\base_classes\../lowpass_filter.h)(0x615DAA1C)
+F (..\Libraries\common\base_classes\Sensor.cpp)(0x615DAA1D)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\sensor.o --omf_browse .\objects\sensor.crf --depend .\objects\sensor.d)
+I (..\Libraries\common\base_classes\Sensor.h)(0x615DAA1D)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Libraries\common\base_classes\../foc_utils.h)(0x615DAA1C)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\Libraries\common\base_classes\../time_utils.h)(0x615DAA1C)
+F (..\Libraries\StepperMotor.cpp)(0x615DAA1C)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\steppermotor.o --omf_browse .\objects\steppermotor.crf --depend .\objects\steppermotor.d)
+I (..\Libraries\StepperMotor.h)(0x615DAA1C)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\Libraries\common/base_classes/FOCMotor.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/Sensor.h)(0x615DAA1D)
+I (..\Libraries\common/base_classes/CurrentSense.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/BLDCDriver.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../foc_utils.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../time_utils.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../defaults.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../pid.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/../lowpass_filter.h)(0x615DAA1C)
+I (..\Libraries\common/base_classes/StepperDriver.h)(0x615DAA1D)
+I (..\Libraries\common/defaults.h)(0x615DAA1C)
+F (..\Libraries\drivers\StepperDriver2PWM.cpp)(0x619A4834)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\stepperdriver2pwm.o --omf_browse .\objects\stepperdriver2pwm.crf --depend .\objects\stepperdriver2pwm.d)
+I (..\Libraries\drivers\StepperDriver2PWM.h)(0x615DAA1E)
+I (..\Libraries\drivers\../common/base_classes/StepperDriver.h)(0x615DAA1D)
+I (..\Libraries\drivers\../common/foc_utils.h)(0x615DAA1C)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\Libraries\drivers\../common/time_utils.h)(0x615DAA1C)
+I (..\Libraries\drivers\../common/defaults.h)(0x615DAA1C)
+I (..\Libraries\drivers\hardware_api.h)(0x615DAA1E)
+F (..\Libraries\drivers\StepperDriver4PWM.cpp)(0x619A4834)(--cpp -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu --cpp11-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\stepperdriver4pwm.o --omf_browse .\objects\stepperdriver4pwm.crf --depend .\objects\stepperdriver4pwm.d)
+I (..\Libraries\drivers\StepperDriver4PWM.h)(0x615DAA1E)
+I (..\Libraries\drivers\../common/base_classes/StepperDriver.h)(0x615DAA1D)
+I (..\Libraries\drivers\../common/foc_utils.h)(0x615DAA1C)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (..\Libraries\drivers\../common/time_utils.h)(0x615DAA1C)
+I (..\Libraries\drivers\../common/defaults.h)(0x615DAA1C)
+I (..\Libraries\drivers\hardware_api.h)(0x615DAA1E)
+F (..\ArduinoAPI\Arduino.c)(0x606C6BD2)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\arduino.o --omf_browse .\objects\arduino.crf --depend .\objects\arduino.d)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+F (..\ArduinoAPI\dtostrf.c)(0x5F43E760)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\dtostrf.o --omf_browse .\objects\dtostrf.crf --depend .\objects\dtostrf.d)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (..\ArduinoAPI\HardwareSerial.cpp)(0x5F43E760)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\hardwareserial.o --omf_browse .\objects\hardwareserial.crf --depend .\objects\hardwareserial.d)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+F (..\ArduinoAPI\itoa.c)(0x5F43E760)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\itoa.o --omf_browse .\objects\itoa.crf --depend .\objects\itoa.d)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\ArduinoAPI\Print.cpp)(0x5F43E760)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\print.o --omf_browse .\objects\print.crf --depend .\objects\print.d)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\wirish_math.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\limits.h)(0x599ECD2A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+F (..\ArduinoAPI\WString.cpp)(0x5F43E760)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\wstring.o --omf_browse .\objects\wstring.crf --depend .\objects\wstring.d)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+F (..\ArduinoAPI\Wire.cpp)(0x5F43E760)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\wire.o --omf_browse .\objects\wire.crf --depend .\objects\wire.d)
+I (..\ArduinoAPI\Wire.h)(0x6017F18E)
+I (..\ArduinoAPI\WireBase.h)(0x5F43E760)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+F (..\ArduinoAPI\WireBase.cpp)(0x5F43E760)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\wirebase.o --omf_browse .\objects\wirebase.crf --depend .\objects\wirebase.d)
+I (..\ArduinoAPI\WireBase.h)(0x5F43E760)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+F (..\ArduinoAPI\WMath.cpp)(0x5F43E760)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\wmath.o --omf_browse .\objects\wmath.crf --depend .\objects\wmath.d)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+F (..\ArduinoAPI\SPI.cpp)(0x6177F15D)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (..\ArduinoAPI\SPI.h)(0x5F43E760)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+F (..\ArduinoAPI\Stream.cpp)(0x5F43E760)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\stream.o --omf_browse .\objects\stream.crf --depend .\objects\stream.d)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+F (..\ArduinoAPI\Tone.cpp)(0x5F43E760)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\tone.o --omf_browse .\objects\tone.crf --depend .\objects\tone.d)
+I (..\ArduinoAPI\Tone.h)(0x5F43E760)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\WCharacter.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (..\ArduinoAPI\WString.h)(0x5F43E760)
+I (..\ArduinoAPI\dtostrf.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\ArduinoAPI\itoa.h)(0x5F43E760)
+I (..\ArduinoAPI\WMath.h)(0x6016BF10)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\ArduinoAPI\HardwareSerial.h)(0x5F43E760)
+I (..\ArduinoAPI\Print.h)(0x5F43E760)
+I (..\ArduinoAPI\libmaple_types.h)(0x5F43E760)
+I (..\ArduinoAPI\Printable.h)(0x5F43E760)
+I (..\ArduinoAPI\Stream.h)(0x5F43E760)
+F (..\Core\adc.c)(0x606C6BFE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (..\CORE\delay.c)(0x606C6BD2)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\CORE\delay.h)(0x5F43E760)
+I (..\CORE\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (..\Core\exti.c)(0x606C6BFE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\exti.o --omf_browse .\objects\exti.crf --depend .\objects\exti.d)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\gpio.h)(0x5F43E760)
+F (..\Core\gpio.c)(0x606C6BFE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (..\Core\gpio.h)(0x5F43E760)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (..\Core\pwm.c)(0x606C6BFE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+I (..\Core\pwm.h)(0x5F43E760)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\ArduinoAPI\Arduino.h)(0x615DAD1A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\ArduinoAPI\binary.h)(0x5F43E760)
+I (..\ArduinoAPI\avr/pgmspace.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (..\Core\adc.h)(0x5F43E760)
+I (..\Core\delay.h)(0x5F43E760)
+I (..\Core\exti.h)(0x5F43E760)
+I (..\Core\gpio.h)(0x5F43E760)
+F (..\Core\timer.c)(0x606C6C00)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\Core\timer.h)(0x5F43E760)
+I (..\Core\mcu_type.h)(0x5F43E760)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\misc.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_adc.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_dma.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_exti.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_flash.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_spi.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_tim.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_usart.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5927DFA6)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x5825386C)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x5825386C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\ArduinoAPI -I ..\Core -I ..\Libraries -I ..\USER -I ..\Libraries\common -I ..\Libraries\drivers -I ..\Libraries\sensors --gnu-I.\RTE\Device\STM32F103C8-I.\RTE\_Project-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DERIVER -DARDUINO="111"-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Project\RTE_Components.h)(0x601678D8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
